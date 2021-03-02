@@ -1,0 +1,64 @@
+* {
+  font-size: 16px;
+}
+
+body {
+  background: #674baf url(../images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin: 60px 80px 40px 80px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.image-hero img {
+  max-width: 100%;
+  min-width: 320px;
+  height: auto;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.description {
+  color: white;
+}
+
+.text-main {
+  font-size: 3em;
+}
+
+.btn {
+  padding: 13px 57px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  color: #674baf;
+  cursor: pointer;
+  -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=style.css.map */
