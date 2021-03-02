@@ -19,9 +19,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 80px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   margin-bottom: 20px;
 }
 
@@ -39,26 +36,49 @@ body {
   height: auto;
   display: block;
   background-repeat: no-repeat;
+  margin-right: 50px;
 }
 
 .description {
+  margin-top: 20px;
   color: white;
 }
 
 .text-main {
-  font-size: 3em;
+  font-size: 1.5em;
+}
+
+.text-main h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.text {
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.text p {
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
+  letter-spacing: 0.5px;
 }
 
 .btn {
-  padding: 13px 57px;
+  padding: 18px 70px;
   background-color: white;
   border: none;
   border-radius: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
   color: #674baf;
   cursor: pointer;
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background: #e980e7;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
